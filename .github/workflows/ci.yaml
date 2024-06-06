@@ -6,7 +6,7 @@ on:
             - main
 
 env:
-    PP_NAME: '${{ github.repository }}' 
+    APP_NAME: '${{ github.repository }}' 
     REGISTRY: ghcr.io
 
 jobs: 
